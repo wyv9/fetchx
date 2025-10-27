@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# App
+*.log
+fetchx_config.json
+
+# Build
+dist/
+build/
+*.spec
+*.exe
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
