@@ -1,4 +1,4 @@
-# ![Icon](https://github.com/wyv9/fetchx/blob/main/docs/icon-32.png) FetchX
+# ![Icon](icon-32.png) FetchX
 
 A simple open source auto image processing tool for you :3
 
