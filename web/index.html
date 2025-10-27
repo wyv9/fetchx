@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FetchX - Open Source Image Processor</title>
+<link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gray: {
+                            100: '#f5f5f5',
+                            200: '#e5e5e5',
+                            300: '#d4d4d4',
+                            400: '#a3a3a3',
+                            500: '#737373',
+                            600: '#525252',
+                            700: '#404040',
+                            800: '#262626',
+                            900: '#171717',
+                            950: '#0a0a0a'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * {
+            color: white !important;
+        }
+        body {
+            background: black !important;
+            filter: grayscale(100%) !important;
+        }
+    </style>
+</head>
+<body class="bg-black-600 text-gray-200 min-h-screen flex flex-col">
+    <custom-navbar></custom-navbar>
+    
+    <main class="flex-1" id="vanta-bg">
+        <div class="container mx-auto px-4 py-16">
+            <div class="max-w-4xl mx-auto backdrop-blur-lg bg-black-500/30 rounded-2xl p-8 shadow-2xl border border-purple-500/20">
+                <div class="flex flex-col md:flex-row gap-8 items-center">
+                    <div class="md:w-1/2">
+                            <h1 class="text-4xl md:text-5xl font-bold text-gray-200 mb-4">
+FetchX
+                        </h1>
+                        <p class="text-xl text-gray-300 mb-6">
+                            A simple open source auto image processing tool for you :3
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-2">
+                                <i data-feather="github" class="text-gray-400"></i>
+                                <span>MIT Licensed</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-feather="code" class="text-gray-400"></i>
+                                <span>100% open source</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-feather="download" class="text-gray-400"></i>
+                                <span>Lightweight package</span>
+                            </div>
+                        </div>
+</div>
+                    <div class="md:w-1/2">
+                        <div class="glass-card p-6 rounded-xl">
+                            <h2 class="text-2xl font-semibold mb-4">Download Now</h2>
+                            <p class="text-gray-300 mb-6">Download the latest release</p>
+<div class="space-y-4">
+                                <a href="https://github.com/wyv9/fetchx/releases" class="glass-button w-full flex items-center justify-center gap-2 py-3 px-6 rounded-lg transition-all hover:bg-gray-500/30">
+                                    <i data-feather="download"></i>
+                                    <span>Download Latest Release</span>
+                                </a>
+                                <a href="https://github.com/wyv9/fetchx" class="glass-button w-full flex items-center justify-center gap-2 py-3 px-6 rounded-lg transition-all hover:bg-gray-500/30">
+                                    <i data-feather="github"></i>
+                                    <span>View on GitHub</span>
+                                </a>
+</div>
+                            <div class="mt-6 text-sm text-gray-400">
+                                <p>Latest: v1.0 • 38.5 MB</p>
+                                <p class="mt-2">MIT License</p>
+                            </div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+  <script>
+        feather.replace();
+        VANTA.GLOBE({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x808080,
+            backgroundColor: 0x000000,
+            size: 0.8
+        });
+    </script>
+</body>
+</html>
