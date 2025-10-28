@@ -4,7 +4,6 @@
 
 [![Website](https://img.shields.io/badge/Website-wyv9.github.io/fetchx-7a4dff?logo=firefox&logoColor=white&style=for-the-badge)](https://wyv9.github.io/fetchx)
 [![Version](https://img.shields.io/github/v/release/wyv9/fetchx?display_name=release&label=Release&color=7a4dff&logo=github&logoColor=white&style=for-the-badge)](https://github.com/wyv9/fetchx/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/wyv9/fetchx/total?label=Downloads&color=7a4dff&logo=arrow-circle-down&logoColor=white&style=for-the-badge)](https://github.com/wyv9/fetchx/releases)
 [![License](https://img.shields.io/github/license/wyv9/fetchx?label=License&color=0d0d0d&logo=open-source-initiative&logoColor=white&style=for-the-badge)](https://github.com/wyv9/fetchx/blob/main/LICENSE)
 
 
