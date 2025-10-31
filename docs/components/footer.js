@@ -94,10 +94,11 @@ margin-bottom: 1rem;
           <a href="#github"><i data-feather="github"></i></a>
         </div>
         <div class="copyright">
-          &copy; 2024 FetchX. All rights reserved. \n Made with love by wyv <3
+          &copy; 2025 FetchX. All rights reserved. \n Made with love by wyv <3
         </div>
       </footer>
     `;
   }
 }
+
 customElements.define('custom-footer', CustomFooter);
